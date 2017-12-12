@@ -1,0 +1,7 @@
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe.config
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\bin\Debug\KeyLogger.exe
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\bin\Debug\KeyLogger.pdb
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csprojResolveAssemblyReference.cache
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\obj\Debug\KeyLogger.csproj.CoreCompileInputs.cache
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\obj\Debug\KeyLogger.exe
+C:\Users\Alan\Documents\general\KeyLogger\KeyLogger\obj\Debug\KeyLogger.pdb
