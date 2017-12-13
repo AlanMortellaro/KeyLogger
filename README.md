@@ -1,3 +1,5 @@
 # KeyLogger
 
-A simple KeyLogger code in c#
+A simply KeyLogger.
+
+Change your file location in source code for check key pressed when application start.
