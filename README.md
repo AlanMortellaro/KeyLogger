@@ -2,6 +2,6 @@
 
 A simply KeyLogger.
 
-Change your file location in source code for see key pressed when the application is running.
+Edit your file location in the source code to see the content.
 
-(This KeyLogger work only Windows.)
+(This KeyLogger works on Windows.)
